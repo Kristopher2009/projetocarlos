@@ -1,8 +1,8 @@
 body {
     font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.6;
-    background-color: var(--bg-color);
-    color: var(--text-color);
+    background-color: white;
+    color: black;
 }
 nav{
     color: rgb(78, 74, 74);
@@ -133,8 +133,8 @@ header{
 footer {
     text-align: center;
     padding: 2rem;
-    background: var(--text-color);
-    color: var(--white);
+    background: black;
+    color: white;
     margin-top: 50px;
 }
 
