@@ -1,0 +1,151 @@
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+nav{
+    color: rgb(78, 74, 74);
+    padding: 0px 4px;
+}
+
+nav a{
+    margin:8px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);}
+
+    
+.tabelauni img{
+    height: 360px;
+    width: 360px;
+    border-radius: 16px;
+}
+
+.wheatstone img{
+    height: 360px;
+    width: 360px;
+    border-radius: 16px;
+}
+
+.multi2 img{
+    height: 360px;
+    width: 360px;
+    border-radius: 16px;
+}
+
+.ard img{
+    height: 360px;
+    width: 360px;
+    border-radius: 16px;
+}
+
+.clp img{
+    height: 360px;
+    width: 360px;
+    border-radius: 16px;
+}
+
+.tipok img{
+    height: 360px;
+    width: 360px;
+    border-radius: 16px;
+}
+.som img{
+    height: 360px;
+    width: 360px;
+    border-radius: 16px;
+}
+
+.rele img{
+    height: 360px;
+    width: 360px;
+    border-radius: 16px;
+}
+
+.cor img{
+    height: 360px;
+    width: 360px;
+    border-radius: 16px;
+}
+
+.ldr img{
+    height: 360px;
+    width: 360px;
+    border-radius: 16px;
+}
+
+.vibraçao img{
+    height: 360px;
+    width: 360px;
+    border-radius: 16px;
+}
+
+.ntcptc img{
+    height: 360px;
+    width: 360px;
+    border-radius: 16px;
+}
+
+.tinkercad img{
+    height: 360px;
+    width: 360px;
+    border-radius: 16px;
+}
+
+.videobutton{
+    height: 360px;
+    width: 360px;
+    border-radius: 16px;
+}
+
+.foto1 img{
+    height: 360px;
+    width: 360px;
+    border-radius: 16px;
+}
+
+.video100ms{
+    height: 360px;
+    width: 360px;
+    border-radius: 16px;
+}
+
+.videotink3{
+    height: 360px;
+    width: 360px;
+    border-radius: 16px;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+header{
+    background-color: rgb(114, 121, 121);
+    text-align: center;
+    border-radius: 16px;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    background: var(--text-color);
+    color: var(--white);
+    margin-top: 50px;
+}
+
+.galva img{
+    height: 360px;
+    width: 360px;
+    border-radius: 16px;
+}
+
+.ultra img{
+    height: 360px;
+    width: 360px;
+    border-radius: 16px;
+}

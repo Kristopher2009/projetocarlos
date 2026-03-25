@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Projeto Mundo Senai</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">Temperatura/Medida</a>
+            <a href="./senescala.html">Sensor/Escala</a>
+            <a href="./arduino.html">Arduino/CLP</a>
+        </nav>
+    </header>
+    <main>
+        <h2>O que é um Arduino?</h2>
+     <p>Arduino é uma plataforma de prototipagem eletrônica de código aberto (open-source) que combina uma placa de hardware (com microcontrolador) e um ambiente de desenvolvimento (IDE). Ideal para iniciantes e profissionais, permite criar projetos automatizados, robôs e sensores, recebendo informações do ambiente e controlando atuadores, motores e luzes. 
+    </p>
+    <h2>Qual é a escala analógica do Arduino?
+    </h2>
+    <p>A escala analógica padrão na maioria das placas Arduino (como o Arduino Uno, Nano e Mega) é de 10 bits. 
+    </p>
+    <p>Isso significa que, ao ler um sinal analógico usando o comando analogRead, o Arduino converte a tensão de entrada em um valor numérico inteiro que varia de 0 a 1023. 
+    </p>
+    <h2>O que é a entrada analogica e digital no Arduino?</h2>
+    <p>Entradas digitais no Arduino leem dois estados(ligado/desligado, high/low), ideias para sensores binários e botões. Entradas analógicas leem tensões continuas (0V a 5V), convertendo em valores  de 0 a 1023(10-bit), e a saída é de 0 a 255.
+    </p>
+    <h2>Como o PWM funciona?</h2>
+    <p>0% Duty Cycle: O pino fica desligado o tempo todo (0V).</p>
+    <p>25% Duty Cycle: O pino fica ligado 25% do tempo e desligado 75%. A tensão média será de 1,25V.</p>
+    <p>50% Duty Cycle: Metade do tempo ligado, metade desligado. A tensão média será de 2,5V (o LED brilhará com metade da intensidade).</p>
+    <p>100% Duty Cycle: O pino fica ligado o tempo todo (5V).</p>
+
+    <div class="ard">
+        <img src="../arduino.jpg" alt="">
+        <p>Retirado de: <a href="https://web.toledoprudente.edu.br/vestibular">Arduino</a></p>
+    </div>
+    <hr>
+    <h2>O que é CLP? (Modelo da CPU 1214c do tipo DC/DC/DC)</h2>
+    <p>CLP, ou Controlador Lógico Programável, é um computador industrial robusto projetado para automatizar máquinas e processos, operando em ambientes agressivos com poeira, calor e vibração. Ele monitora entradas (sensores), processa uma lógica programável e aciona saídas (motores, válvulas) para controlar linhas de produção. 
+    </p>
+    <h2>O que significa "DC/DC/DC"?</h2>
+    <p>Primeiro DC (Alimentação): A CPU é alimentada por corrente contínua (24V DC). Diferente de alguns modelos que ligam direto no 110/220V (AC), este exige uma fonte externa.</p>
+    <p>Segundo DC (Entradas): As entradas digitais esperam sinais de 24V DC. Quando um sensor envia 24V para o pino, o CLP entende como "ligado" (nível lógico 1).</p>
+    <p>Terceiro DC (Saídas): As saídas são do tipo Transistor (24V DC).</p>
+    <p>Vantagem: Permite frequências de chaveamento altíssimas (ideal para controle de motores de passo ou PWM).</p>
+    <p>Limitação: Diferente da saída a Relé (RLY), ela não suporta cargas de alta corrente ou tensões diferentes de 24V diretamente.</p>
+    <h2>Características da CPU 1214C</h2>
+    <p>Entradas Digitais: 14 entradas integradas (24V DC).</p>
+    <p>Saídas Digitais: 10 saídas integradas (Transistor).</p>
+    <p>Entradas Analógicas: 2 entradas (0-10V DC) integradas para ler sensores de pressão, temperatura, etc.</p>
+    <div class="clp">
+        <img src="../CLP.jpg" alt="">
+        <p>Retirado de: <a href="https://www.lojaeletrica.com.br/">CLP</a></p>
+    </div>
+    <h2>O que é a entrada analogica e digital no CLP?
+    </h2>
+    <p>Entradas de CLP (Controlador Logico Programável) são os pontos de conexão de sinais externos. A entrada digital lê apenas dois estados (ligado/desligado, 0 ou 1),  como botões e sensores indutivos.
+    </p>
+    <p>Analógica: valores contínuos (ex: 0–10V, 4–20mA)
+    </p>
+    <p>Digital: sinais discretos (botão pressionado ou não)</p>
+    <hr>
+    <h2>O que é a ponte de Wheatstone?</h2>
+    <p>A Ponte de Wheatstone é um circuito elétrico utilizado para medir com alta precisão o valor de uma resistência elétrica desconhecida. Desenvolvida por Samuel Hunter Christie em 1833 e popularizada por Charles Wheatstone em 1843, ela baseia-se no princípio do equilíbrio de potenciais em um arranjo de quatro resistores. 
+    </p>
+    <div class="wheatstone">
+        <img src="../ponte de wheatstone.jpg" alt="">
+        <p>Exemplo no Tinkercad:</p>
+        <div class="galva">
+            <img src="../galvanometropaint.jpg" alt="">
+
+        </div>
+
+    </div>
+    <p>O circuito é composto por quatro resistores conectados em formato de "losango", alimentados por uma fonte de tensão contínua. No centro (entre os ramos), conecta-se um instrumento sensível chamado galvanômetro. 
+    </p>
+    <hr>
+    <h2>O que é um multímetro 
+    </h2>
+    <p>Um multímetro é uma ferramenta essencial de diagnóstico para quem trabalha com eletricidade ou eletrônica. Ele combina várias funções de medição em uma única unidade, permitindo que você verifique se um circuito está funcionando corretamente ou identifique falhas.
+    </p>
+    <div class="multi">
+        <img src="../multimetro3.jpg" alt="">
+    </div>
+    <p>Retirado de: <a href="https://www.minipa.com.br/">Multímetro</a></p>
+    <h2>Grandezas Principais</h2>
+    <p>Estas são as funções que todo multímetro, do mais simples ao profissional, possui:</p>
+    <p>Tensão (Volts - V): Mede a "pressão" elétrica.</p>
+    <p>V~ (ACV): Tensão Alternada (tomadas, redes elétricas residenciais).</p>
+    <p>V⎓ (DCV): Tensão Contínua (pilhas, baterias, circuitos eletrônicos).</p>
+    <p>Corrente (Amperes - A): Mede o "fluxo" de elétrons passando por um condutor.</p>
+    <p>Assim como a tensão, pode ser Alternada (A~) ou Contínua (A⎓). Atenção: Medir corrente exige que o multímetro esteja em série com o circuito.</p>
+    <p>Resistência (Ohms - Ω): Mede o quanto um componente dificulta a passagem da corrente. É usada para testar resistores, bobinas e cabos.</p>
+    <h2>Funções de Diagnóstico</h2>
+    <p>Além das unidades de medida, existem escalas para testes rápidos:</p>
+    <p>Continuidade (Som de "Bip"): Serve para saber se um fio está rompido ou se há conexão entre dois pontos. Se apitar, o caminho está livre.</p>
+    <p>Diodo (seta com um traço): Usado para testar semicondutores e saber se a corrente está fluindo apenas para um lado, como deveria.</p>
+    <hr>
+    
+    </main>
+</body>
+</html>
