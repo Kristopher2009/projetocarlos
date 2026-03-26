@@ -17,108 +17,6 @@ a{
     text-decoration: none;
     color: rgb(0, 0, 0);}
 
-    
-.tabelauni img{
-    height: 360px;
-    width: 360px;
-    border-radius: 16px;
-}
-
-.wheatstone img{
-    height: 360px;
-    width: 360px;
-    border-radius: 16px;
-}
-
-.multi2 img{
-    height: 360px;
-    width: 360px;
-    border-radius: 16px;
-}
-
-.ard img{
-    height: 360px;
-    width: 360px;
-    border-radius: 16px;
-}
-
-.clp img{
-    height: 360px;
-    width: 360px;
-    border-radius: 16px;
-}
-
-.tipok img{
-    height: 360px;
-    width: 360px;
-    border-radius: 16px;
-}
-.som img{
-    height: 360px;
-    width: 360px;
-    border-radius: 16px;
-}
-
-.rele img{
-    height: 360px;
-    width: 360px;
-    border-radius: 16px;
-}
-
-.cor img{
-    height: 360px;
-    width: 360px;
-    border-radius: 16px;
-}
-
-.ldr img{
-    height: 360px;
-    width: 360px;
-    border-radius: 16px;
-}
-
-.vibraçao img{
-    height: 360px;
-    width: 360px;
-    border-radius: 16px;
-}
-
-.ntcptc img{
-    height: 360px;
-    width: 360px;
-    border-radius: 16px;
-}
-
-.tinkercad img{
-    height: 360px;
-    width: 360px;
-    border-radius: 16px;
-}
-
-.videobutton{
-    height: 360px;
-    width: 360px;
-    border-radius: 16px;
-}
-
-.foto1 img{
-    height: 360px;
-    width: 360px;
-    border-radius: 16px;
-}
-
-.video100ms{
-    height: 360px;
-    width: 360px;
-    border-radius: 16px;
-}
-
-.videotink3{
-    height: 360px;
-    width: 360px;
-    border-radius: 16px;
-}
-
 nav a{
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -138,20 +36,11 @@ footer {
     margin-top: 50px;
 }
 
-.galva img{
-    height: 360px;
-    width: 360px;
-    border-radius: 16px;
+video{
+    width:360px ;
+    height: auto;
 }
-
-.ultra img{
-    height: 360px;
-    width: 360px;
-    border-radius: 16px;
-}
-
-.tipok1 img{
-    height: 360px;
-    width: 360px;
-    border-radius: 16px;
+img{
+    width:360px ;
+    height: auto;
 }
